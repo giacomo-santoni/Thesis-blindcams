@@ -1,0 +1,991 @@
+Model: "sequential_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d (Conv2D)             (None, 30, 30, 32)        320       
+                                                                 
+ max_pooling2d (MaxPooling2  (None, 15, 15, 32)        0         
+ D)                                                              
+                                                                 
+ flatten (Flatten)           (None, 7200)              0         
+                                                                 
+ dense (Dense)               (None, 128)               921728    
+                                                                 
+ dense_1 (Dense)             (None, 64)                8256      
+                                                                 
+ dense_2 (Dense)             (None, 32)                2080      
+                                                                 
+ dense_3 (Dense)             (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 932417 (3.56 MB)
+Trainable params: 932417 (3.56 MB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+(32, 10, [32, 32, 32, 1], ['accuracy'], <keras.src.losses.BinaryCrossentropy object at 0x2a5d33bd0>)
+[[   18    10]
+ [  262 10053]]
+Model: "sequential_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d (Conv2D)             (None, 30, 30, 32)        320       
+                                                                 
+ max_pooling2d (MaxPooling2  (None, 15, 15, 32)        0         
+ D)                                                              
+                                                                 
+ conv2d_1 (Conv2D)           (None, 13, 13, 64)        18496     
+                                                                 
+ max_pooling2d_1 (MaxPoolin  (None, 6, 6, 64)          0         
+ g2D)                                                            
+                                                                 
+ flatten (Flatten)           (None, 2304)              0         
+                                                                 
+ dense (Dense)               (None, 128)               295040    
+                                                                 
+ dense_1 (Dense)             (None, 64)                8256      
+                                                                 
+ dense_2 (Dense)             (None, 32)                2080      
+                                                                 
+ dense_3 (Dense)             (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 324225 (1.24 MB)
+Trainable params: 324225 (1.24 MB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+(0.1, 40)
+(32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x3276a5c50>, <keras.src.losses.BinaryCrossentropy object at 0x2ca1cb9d0>)
+[[   19    14]
+ [    3 10138]]
+Model: "sequential_5"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_2 (Conv2D)           (None, 30, 30, 32)        320       
+                                                                 
+ max_pooling2d_2 (MaxPoolin  (None, 15, 15, 32)        0         
+ g2D)                                                            
+                                                                 
+ conv2d_3 (Conv2D)           (None, 13, 13, 64)        18496     
+                                                                 
+ max_pooling2d_3 (MaxPoolin  (None, 6, 6, 64)          0         
+ g2D)                                                            
+                                                                 
+ flatten_1 (Flatten)         (None, 2304)              0         
+                                                                 
+ dense_4 (Dense)             (None, 128)               295040    
+                                                                 
+ dense_5 (Dense)             (None, 64)                8256      
+                                                                 
+ dense_6 (Dense)             (None, 32)                2080      
+                                                                 
+ dense_7 (Dense)             (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 324225 (1.24 MB)
+Trainable params: 324225 (1.24 MB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+(0.1, 40)
+(32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x2ca628550>, <keras.src.losses.BinaryCrossentropy object at 0x3dcf14510>)
+[[  20   20]
+ [   1 9208]]
+Model: "sequential_6"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_4 (Conv2D)           (None, 30, 30, 32)        320       
+                                                                 
+ max_pooling2d_4 (MaxPoolin  (None, 15, 15, 32)        0         
+ g2D)                                                            
+                                                                 
+ conv2d_5 (Conv2D)           (None, 13, 13, 64)        18496     
+                                                                 
+ max_pooling2d_5 (MaxPoolin  (None, 6, 6, 64)          0         
+ g2D)                                                            
+                                                                 
+ conv2d_6 (Conv2D)           (None, 4, 4, 128)         73856     
+                                                                 
+ max_pooling2d_6 (MaxPoolin  (None, 2, 2, 128)         0         
+ g2D)                                                            
+                                                                 
+ flatten_2 (Flatten)         (None, 512)               0         
+                                                                 
+ dense_8 (Dense)             (None, 128)               65664     
+                                                                 
+ dense_9 (Dense)             (None, 64)                8256      
+                                                                 
+ dense_10 (Dense)            (None, 32)                2080      
+                                                                 
+ dense_11 (Dense)            (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 168705 (659.00 KB)
+Trainable params: 168705 (659.00 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+(0.1, 40)
+(32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x3cef488d0>, <keras.src.losses.BinaryCrossentropy object at 0x3b602f990>)
+[[  24   16]
+ [   5 9204]]
+Model: "sequential_7"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_7 (Conv2D)           (None, 30, 30, 32)        320       
+                                                                 
+ max_pooling2d_7 (MaxPoolin  (None, 15, 15, 32)        0         
+ g2D)                                                            
+                                                                 
+ dropout (Dropout)           (None, 15, 15, 32)        0         
+                                                                 
+ conv2d_8 (Conv2D)           (None, 13, 13, 64)        18496     
+                                                                 
+ max_pooling2d_8 (MaxPoolin  (None, 6, 6, 64)          0         
+ g2D)                                                            
+                                                                 
+ dropout_1 (Dropout)         (None, 6, 6, 64)          0         
+                                                                 
+ conv2d_9 (Conv2D)           (None, 4, 4, 64)          36928     
+                                                                 
+ max_pooling2d_9 (MaxPoolin  (None, 2, 2, 64)          0         
+ g2D)                                                            
+                                                                 
+ dropout_2 (Dropout)         (None, 2, 2, 64)          0         
+                                                                 
+ flatten_3 (Flatten)         (None, 256)               0         
+                                                                 
+ dense_12 (Dense)            (None, 128)               32896     
+                                                                 
+ dense_13 (Dense)            (None, 64)                8256      
+                                                                 
+ dense_14 (Dense)            (None, 32)                2080      
+                                                                 
+ dense_15 (Dense)            (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 99009 (386.75 KB)
+Trainable params: 99009 (386.75 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+(0.1, 40)
+(32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x3920b5650>, <keras.src.losses.BinaryCrossentropy object at 0x3ce1a5250>)
+[[  22   18]
+ [   2 9207]]
+Model: "sequential_8"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_10 (Conv2D)          (None, 30, 30, 8)         80        
+                                                                 
+ max_pooling2d_10 (MaxPooli  (None, 15, 15, 8)         0         
+ ng2D)                                                           
+                                                                 
+ conv2d_11 (Conv2D)          (None, 13, 13, 16)        1168      
+                                                                 
+ max_pooling2d_11 (MaxPooli  (None, 6, 6, 16)          0         
+ ng2D)                                                           
+                                                                 
+ conv2d_12 (Conv2D)          (None, 4, 4, 32)          4640      
+                                                                 
+ max_pooling2d_12 (MaxPooli  (None, 2, 2, 32)          0         
+ ng2D)                                                           
+                                                                 
+ dropout_3 (Dropout)         (None, 2, 2, 32)          0         
+                                                                 
+ flatten_4 (Flatten)         (None, 128)               0         
+                                                                 
+ dense_16 (Dense)            (None, 128)               16512     
+                                                                 
+ dense_17 (Dense)            (None, 64)                8256      
+                                                                 
+ dense_18 (Dense)            (None, 32)                2080      
+                                                                 
+ dense_19 (Dense)            (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 32769 (128.00 KB)
+Trainable params: 32769 (128.00 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+(0.1, 40)
+(32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x3861b6dd0>, <keras.src.losses.BinaryCrossentropy object at 0x3ddcfa490>)
+[[  23   17]
+ [   7 9202]]
+Model: "sequential_10"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_14 (Conv2D)          (None, 30, 30, 32)        320       
+                                                                 
+ max_pooling2d_14 (MaxPooli  (None, 15, 15, 32)        0         
+ ng2D)                                                           
+                                                                 
+ dropout_5 (Dropout)         (None, 15, 15, 32)        0         
+                                                                 
+ flatten_6 (Flatten)         (None, 7200)              0         
+                                                                 
+ dense_24 (Dense)            (None, 128)               921728    
+                                                                 
+ dense_25 (Dense)            (None, 64)                8256      
+                                                                 
+ dense_26 (Dense)            (None, 32)                2080      
+                                                                 
+ dense_27 (Dense)            (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 932417 (3.56 MB)
+Trainable params: 932417 (3.56 MB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+(0.1, 40)
+(32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x3cfcc1d50>, <keras.src.losses.BinaryCrossentropy object at 0x2da29a490>)
+[[  19   21]
+ [   1 9208]]
+Model: "sequential_11"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_15 (Conv2D)          (None, 30, 30, 32)        320       
+                                                                 
+ max_pooling2d_15 (MaxPooli  (None, 15, 15, 32)        0         
+ ng2D)                                                           
+                                                                 
+ flatten_7 (Flatten)         (None, 7200)              0         
+                                                                 
+ dense_28 (Dense)            (None, 128)               921728    
+                                                                 
+ dense_29 (Dense)            (None, 64)                8256      
+                                                                 
+ dense_30 (Dense)            (None, 32)                2080      
+                                                                 
+ dense_31 (Dense)            (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 932417 (3.56 MB)
+Trainable params: 932417 (3.56 MB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+(0.1, 40)
+(32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x2cc605a90>, <keras.src.losses.BinaryCrossentropy object at 0x3268b9e10>)
+[[  20   20]
+ [   1 9208]]
+Model: "sequential_14"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_16 (Conv2D)          (None, 30, 30, 8)         80        
+                                                                 
+ max_pooling2d_16 (MaxPooli  (None, 15, 15, 8)         0         
+ ng2D)                                                           
+                                                                 
+ conv2d_17 (Conv2D)          (None, 13, 13, 16)        1168      
+                                                                 
+ max_pooling2d_17 (MaxPooli  (None, 6, 6, 16)          0         
+ ng2D)                                                           
+                                                                 
+ conv2d_18 (Conv2D)          (None, 4, 4, 32)          4640      
+                                                                 
+ max_pooling2d_18 (MaxPooli  (None, 2, 2, 32)          0         
+ ng2D)                                                           
+                                                                 
+ dropout_6 (Dropout)         (None, 2, 2, 32)          0         
+                                                                 
+ flatten_8 (Flatten)         (None, 128)               0         
+                                                                 
+ dense_32 (Dense)            (None, 128)               16512     
+                                                                 
+ dense_33 (Dense)            (None, 64)                8256      
+                                                                 
+ dense_34 (Dense)            (None, 32)                2080      
+                                                                 
+ dense_35 (Dense)            (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 32769 (128.00 KB)
+Trainable params: 32769 (128.00 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+ratio_thr, sum_thr, perc_val, perc_train:  (0.1, 40, 0.2, 0.9)
+batch_size, epochs, input_shape, metric,loss_func:  (32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x3c72f0110>, <keras.src.losses.BinaryCrossentropy object at 0x3268ba990>)
+[[  19    9]
+ [   4 8189]]
+[[  344   182]
+ [   98 53005]]
+Model: "sequential_17"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_19 (Conv2D)          (None, 30, 30, 8)         80        
+                                                                 
+ max_pooling2d_19 (MaxPooli  (None, 15, 15, 8)         0         
+ ng2D)                                                           
+                                                                 
+ conv2d_20 (Conv2D)          (None, 13, 13, 16)        1168      
+                                                                 
+ max_pooling2d_20 (MaxPooli  (None, 6, 6, 16)          0         
+ ng2D)                                                           
+                                                                 
+ conv2d_21 (Conv2D)          (None, 4, 4, 32)          4640      
+                                                                 
+ max_pooling2d_21 (MaxPooli  (None, 2, 2, 32)          0         
+ ng2D)                                                           
+                                                                 
+ dropout_7 (Dropout)         (None, 2, 2, 32)          0         
+                                                                 
+ flatten_9 (Flatten)         (None, 128)               0         
+                                                                 
+ dense_36 (Dense)            (None, 128)               16512     
+                                                                 
+ dense_37 (Dense)            (None, 64)                8256      
+                                                                 
+ dense_38 (Dense)            (None, 32)                2080      
+                                                                 
+ dense_39 (Dense)            (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 32769 (128.00 KB)
+Trainable params: 32769 (128.00 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+ratio_thr, sum_thr, perc_val, perc_train:  (0.1, 40, 0.2, 0.9)
+batch_size, epochs, input_shape, metric,loss_func:  (32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x3e0f66d10>, <keras.src.losses.BinaryCrossentropy object at 0x3d892a490>)
+[[  17   11]
+ [   3 8190]]
+[[  340   186]
+ [   98 53005]]
+
+Model: "sequential_19"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_25 (Conv2D)          (None, 30, 30, 8)         80        
+                                                                 
+ max_pooling2d_25 (MaxPooli  (None, 15, 15, 8)         0         
+ ng2D)                                                           
+                                                                 
+ flatten_11 (Flatten)        (None, 1800)              0         
+                                                                 
+ dense_44 (Dense)            (None, 128)               230528    
+                                                                 
+ dense_45 (Dense)            (None, 64)                8256      
+                                                                 
+ dense_46 (Dense)            (None, 32)                2080      
+                                                                 
+ dense_47 (Dense)            (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 240977 (941.32 KB)
+Trainable params: 240977 (941.32 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+ratio_thr, sum_thr, perc_val, perc_train:  (0.1, 40, 0.2, 0.9)
+batch_size, epochs, input_shape, metric,loss_func:  (32, 10, [32, 32, 32, 1], ['accuracy'], <keras.src.losses.BinaryCrossentropy object at 0x3edc83a90>)
+[[  291   235]
+ [   29 53074]]
+[[  291   235]
+ [   29 53074]]
+Model: "sequential_22"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_26 (Conv2D)          (None, 30, 30, 8)         80        
+                                                                 
+ max_pooling2d_26 (MaxPooli  (None, 15, 15, 8)         0         
+ ng2D)                                                           
+                                                                 
+ flatten_12 (Flatten)        (None, 1800)              0         
+                                                                 
+ dense_48 (Dense)            (None, 128)               230528    
+                                                                 
+ dense_49 (Dense)            (None, 64)                8256      
+                                                                 
+ dense_50 (Dense)            (None, 32)                2080      
+                                                                 
+ dense_51 (Dense)            (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 240977 (941.32 KB)
+Trainable params: 240977 (941.32 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+ratio_thr, sum_thr, perc_val, perc_train:  (0.1, 40, 0.2, 0.9)
+batch_size, epochs, input_shape, metric,loss_func:  (32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x32759b5d0>, <keras.src.losses.BinaryCrossentropy object at 0x578cca490>)
+[[  17   11]
+ [   1 8192]]
+[[  261   265]
+ [   16 53087]]
+Model: "sequential_25"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_27 (Conv2D)          (None, 30, 30, 8)         80        
+                                                                 
+ max_pooling2d_27 (MaxPooli  (None, 15, 15, 8)         0         
+ ng2D)                                                           
+                                                                 
+ conv2d_28 (Conv2D)          (None, 13, 13, 16)        1168      
+                                                                 
+ max_pooling2d_28 (MaxPooli  (None, 6, 6, 16)          0         
+ ng2D)                                                           
+                                                                 
+ conv2d_29 (Conv2D)          (None, 4, 4, 32)          4640      
+                                                                 
+ max_pooling2d_29 (MaxPooli  (None, 2, 2, 32)          0         
+ ng2D)                                                           
+                                                                 
+ dropout_9 (Dropout)         (None, 2, 2, 32)          0         
+                                                                 
+ flatten_13 (Flatten)        (None, 128)               0         
+                                                                 
+ dense_52 (Dense)            (None, 128)               16512     
+                                                                 
+ dense_53 (Dense)            (None, 64)                8256      
+                                                                 
+ dense_54 (Dense)            (None, 32)                2080      
+                                                                 
+ dense_55 (Dense)            (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 32769 (128.00 KB)
+Trainable params: 32769 (128.00 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+ratio_thr, sum_thr, perc_val, perc_train:  (0.1, 40, 0.2, 0.9)
+batch_size, epochs, input_shape, metric,loss_func:  (32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x3ed7088d0>, <keras.src.losses.BinaryCrossentropy object at 0x3c7cff4d0>)
+[[  22   22]
+ [   6 8891]]
+[[  351   175]
+ [   92 53011]]
+Model: "sequential_28"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_30 (Conv2D)          (None, 30, 30, 8)         80        
+                                                                 
+ max_pooling2d_30 (MaxPooli  (None, 15, 15, 8)         0         
+ ng2D)                                                           
+                                                                 
+ conv2d_31 (Conv2D)          (None, 13, 13, 16)        1168      
+                                                                 
+ max_pooling2d_31 (MaxPooli  (None, 6, 6, 16)          0         
+ ng2D)                                                           
+                                                                 
+ conv2d_32 (Conv2D)          (None, 4, 4, 32)          4640      
+                                                                 
+ max_pooling2d_32 (MaxPooli  (None, 2, 2, 32)          0         
+ ng2D)                                                           
+                                                                 
+ dropout_10 (Dropout)        (None, 2, 2, 32)          0         
+                                                                 
+ flatten_14 (Flatten)        (None, 128)               0         
+                                                                 
+ dense_56 (Dense)            (None, 128)               16512     
+                                                                 
+ dense_57 (Dense)            (None, 64)                8256      
+                                                                 
+ dense_58 (Dense)            (None, 32)                2080      
+                                                                 
+ dense_59 (Dense)            (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 32769 (128.00 KB)
+Trainable params: 32769 (128.00 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+ratio_thr, sum_thr, perc_val, perc_train:  (0.1, 40, 0.2, 0.9)
+batch_size, epochs, input_shape, metric,loss_func:  (32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x3c7ce5bd0>, <keras.src.losses.BinaryCrossentropy object at 0x11c6ba490>)
+[[8894    3]
+ [  23   21]]
+[[53032    71]
+ [  199   327]]
+Model: "sequential_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d (Conv2D)             (None, 30, 30, 8)         80        
+                                                                 
+ max_pooling2d (MaxPooling2  (None, 15, 15, 8)         0         
+ D)                                                              
+                                                                 
+ conv2d_1 (Conv2D)           (None, 13, 13, 16)        1168      
+                                                                 
+ max_pooling2d_1 (MaxPoolin  (None, 6, 6, 16)          0         
+ g2D)                                                            
+                                                                 
+ conv2d_2 (Conv2D)           (None, 4, 4, 32)          4640      
+                                                                 
+ max_pooling2d_2 (MaxPoolin  (None, 2, 2, 32)          0         
+ g2D)                                                            
+                                                                 
+ dropout (Dropout)           (None, 2, 2, 32)          0         
+                                                                 
+ flatten (Flatten)           (None, 128)               0         
+                                                                 
+ dense (Dense)               (None, 128)               16512     
+                                                                 
+ dense_1 (Dense)             (None, 64)                8256      
+                                                                 
+ dense_2 (Dense)             (None, 32)                2080      
+                                                                 
+ dense_3 (Dense)             (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 32769 (128.00 KB)
+Trainable params: 32769 (128.00 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+ratio_thr, sum_thr, perc_val, perc_train:  (0.1, 40, 0.2, 0.9)
+batch_size, epochs, input_shape, metric,loss_func:  (32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x2d2070210>, <keras.src.losses.BinaryCrossentropy object at 0x35107ed10>)
+[[  18   26]
+ [   4 8893]]
+[[  305   221]
+ [   41 53062]]
+Model: "sequential_5"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_3 (Conv2D)           (None, 30, 30, 32)        320       
+                                                                 
+ max_pooling2d_3 (MaxPoolin  (None, 15, 15, 32)        0         
+ g2D)                                                            
+                                                                 
+ conv2d_4 (Conv2D)           (None, 13, 13, 64)        18496     
+                                                                 
+ max_pooling2d_4 (MaxPoolin  (None, 6, 6, 64)          0         
+ g2D)                                                            
+                                                                 
+ dropout_1 (Dropout)         (None, 6, 6, 64)          0         
+                                                                 
+ flatten_1 (Flatten)         (None, 2304)              0         
+                                                                 
+ dense_4 (Dense)             (None, 128)               295040    
+                                                                 
+ dense_5 (Dense)             (None, 64)                8256      
+                                                                 
+ dense_6 (Dense)             (None, 32)                2080      
+                                                                 
+ dense_7 (Dense)             (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 324225 (1.24 MB)
+Trainable params: 324225 (1.24 MB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+ratio_thr, sum_thr, perc_val, perc_train:  (0.1, 40, 0.2, 0.9)
+batch_size, epochs, input_shape, metric,loss_func:  (32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x2f0fc35d0>, <keras.src.losses.BinaryCrossentropy object at 0x2eef84dd0>)
+[[  24   16]
+ [   5 9204]]
+[[  340   186]
+ [   85 53018]]
+Model: "sequential_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d (Conv2D)             (None, 30, 30, 8)         80        
+                                                                 
+ max_pooling2d (MaxPooling2  (None, 15, 15, 8)         0         
+ D)                                                              
+                                                                 
+ conv2d_1 (Conv2D)           (None, 13, 13, 16)        1168      
+                                                                 
+ max_pooling2d_1 (MaxPoolin  (None, 6, 6, 16)          0         
+ g2D)                                                            
+                                                                 
+ conv2d_2 (Conv2D)           (None, 4, 4, 32)          4640      
+                                                                 
+ max_pooling2d_2 (MaxPoolin  (None, 2, 2, 32)          0         
+ g2D)                                                            
+                                                                 
+ dropout (Dropout)           (None, 2, 2, 32)          0         
+                                                                 
+ flatten (Flatten)           (None, 128)               0         
+                                                                 
+ dense (Dense)               (None, 128)               16512     
+                                                                 
+ dense_1 (Dense)             (None, 64)                8256      
+                                                                 
+ dense_2 (Dense)             (None, 32)                2080      
+                                                                 
+ dense_3 (Dense)             (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 32769 (128.00 KB)
+Trainable params: 32769 (128.00 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+ratio_thr, sum_thr, perc_val, perc_train:  (0.1, 40, 0.2, 0.9)
+batch_size, epochs, input_shape, metric,loss_func:  (32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x35a9df5d0>, <keras.src.losses.BinaryCrossentropy object at 0x35938ef10>)
+[[8895    2]
+ [  27   17]]
+[[53071    32]
+ [  236   290]]
+Model: "sequential_3"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_3 (Conv2D)           (None, 30, 30, 32)        320       
+                                                                 
+ max_pooling2d_3 (MaxPoolin  (None, 15, 15, 32)        0         
+ g2D)                                                            
+                                                                 
+ conv2d_4 (Conv2D)           (None, 13, 13, 64)        18496     
+                                                                 
+ max_pooling2d_4 (MaxPoolin  (None, 6, 6, 64)          0         
+ g2D)                                                            
+                                                                 
+ conv2d_5 (Conv2D)           (None, 4, 4, 128)         73856     
+                                                                 
+ max_pooling2d_5 (MaxPoolin  (None, 2, 2, 128)         0         
+ g2D)                                                            
+                                                                 
+ dropout_1 (Dropout)         (None, 2, 2, 128)         0         
+                                                                 
+ flatten_1 (Flatten)         (None, 512)               0         
+                                                                 
+ dense_4 (Dense)             (None, 128)               65664     
+                                                                 
+ dense_5 (Dense)             (None, 64)                8256      
+                                                                 
+ dense_6 (Dense)             (None, 32)                2080      
+                                                                 
+ dense_7 (Dense)             (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 168705 (659.00 KB)
+Trainable params: 168705 (659.00 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+ratio_thr, sum_thr, perc_val, perc_train:  (0.1, 40, 0.2, 0.9)
+batch_size, epochs, input_shape, metric,loss_func:  (32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x2b2ff9450>, <keras.src.losses.BinaryCrossentropy object at 0x339446fd0>)
+[[8886   11]
+ [  19   25]]
+[[52948   155]
+ [  171   355]]
+Model: "sequential_4"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_6 (Conv2D)           (None, 30, 30, 32)        320       
+                                                                 
+ max_pooling2d_6 (MaxPoolin  (None, 15, 15, 32)        0         
+ g2D)                                                            
+                                                                 
+ conv2d_7 (Conv2D)           (None, 13, 13, 64)        18496     
+                                                                 
+ max_pooling2d_7 (MaxPoolin  (None, 6, 6, 64)          0         
+ g2D)                                                            
+                                                                 
+ dropout_2 (Dropout)         (None, 6, 6, 64)          0         
+                                                                 
+ flatten_2 (Flatten)         (None, 2304)              0         
+                                                                 
+ dense_8 (Dense)             (None, 128)               295040    
+                                                                 
+ dense_9 (Dense)             (None, 64)                8256      
+                                                                 
+ dense_10 (Dense)            (None, 32)                2080      
+                                                                 
+ dense_11 (Dense)            (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 324225 (1.24 MB)
+Trainable params: 324225 (1.24 MB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+ratio_thr, sum_thr, perc_val, perc_train:  (0.1, 40, 0.2, 0.9)
+batch_size, epochs, input_shape, metric,loss_func:  (32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x2e2a29ad0>, <keras.src.losses.BinaryCrossentropy object at 0x36808c210>)
+[[8896    1]
+ [  26   18]]
+[[53074    29]
+ [  223   303]]
+Model: "sequential_4"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_6 (Conv2D)           (None, 30, 30, 32)        320       
+                                                                 
+ max_pooling2d_6 (MaxPoolin  (None, 15, 15, 32)        0         
+ g2D)                                                            
+                                                                 
+ conv2d_7 (Conv2D)           (None, 13, 13, 64)        18496     
+                                                                 
+ max_pooling2d_7 (MaxPoolin  (None, 6, 6, 64)          0         
+ g2D)                                                            
+                                                                 
+ dropout_2 (Dropout)         (None, 6, 6, 64)          0         
+                                                                 
+ flatten_2 (Flatten)         (None, 2304)              0         
+                                                                 
+ dense_8 (Dense)             (None, 128)               295040    
+                                                                 
+ dense_9 (Dense)             (None, 64)                8256      
+                                                                 
+ dense_10 (Dense)            (None, 32)                2080      
+                                                                 
+ dense_11 (Dense)            (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 324225 (1.24 MB)
+Trainable params: 324225 (1.24 MB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+ratio_thr, sum_thr, perc_val, perc_train:  (0.1, 40, 0.2, 0.9)
+batch_size, epochs, input_shape, metric,loss_func:  (32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x36140fa10>, <keras.src.losses.BinaryCrossentropy object at 0x2c3b4ef10>)
+[[8896    1]
+ [  26   18]]
+[[53074    29]
+ [  223   303]]
+Model: "sequential_9"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_14 (Conv2D)          (None, 30, 30, 32)        320       
+                                                                 
+ max_pooling2d_14 (MaxPooli  (None, 15, 15, 32)        0         
+ ng2D)                                                           
+                                                                 
+ conv2d_15 (Conv2D)          (None, 13, 13, 64)        18496     
+                                                                 
+ max_pooling2d_15 (MaxPooli  (None, 6, 6, 64)          0         
+ ng2D)                                                           
+                                                                 
+ conv2d_16 (Conv2D)          (None, 4, 4, 128)         73856     
+                                                                 
+ max_pooling2d_16 (MaxPooli  (None, 2, 2, 128)         0         
+ ng2D)                                                           
+                                                                 
+ dropout_6 (Dropout)         (None, 2, 2, 128)         0         
+                                                                 
+ flatten_5 (Flatten)         (None, 512)               0         
+                                                                 
+ dense_20 (Dense)            (None, 128)               65664     
+                                                                 
+ dense_21 (Dense)            (None, 64)                8256      
+                                                                 
+ dense_22 (Dense)            (None, 32)                2080      
+                                                                 
+ dense_23 (Dense)            (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 168705 (659.00 KB)
+Trainable params: 168705 (659.00 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+ratio_thr, sum_thr, perc_val, perc_train:  (0.1, 40, 0.2, 0.9)
+batch_size, epochs, input_shape, metric,loss_func:  (32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x2e2a31ad0>, <keras.src.losses.BinaryCrossentropy object at 0x3e34b8bd0>)
+[[8891    6]
+ [  24   20]]
+[[53003   100]
+ [  200   326]]
+Model: "sequential_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d (Conv2D)             (None, 30, 30, 32)        320       
+                                                                 
+ max_pooling2d (MaxPooling2  (None, 15, 15, 32)        0         
+ D)                                                              
+                                                                 
+ conv2d_1 (Conv2D)           (None, 13, 13, 64)        18496     
+                                                                 
+ max_pooling2d_1 (MaxPoolin  (None, 6, 6, 64)          0         
+ g2D)                                                            
+                                                                 
+ conv2d_2 (Conv2D)           (None, 4, 4, 128)         73856     
+                                                                 
+ max_pooling2d_2 (MaxPoolin  (None, 2, 2, 128)         0         
+ g2D)                                                            
+                                                                 
+ dropout (Dropout)           (None, 2, 2, 128)         0         
+                                                                 
+ flatten (Flatten)           (None, 512)               0         
+                                                                 
+ dense (Dense)               (None, 128)               65664     
+                                                                 
+ dense_1 (Dense)             (None, 64)                8256      
+                                                                 
+ dense_2 (Dense)             (None, 32)                2080      
+                                                                 
+ dense_3 (Dense)             (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 168705 (659.00 KB)
+Trainable params: 168705 (659.00 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+ratio_thr, sum_thr, perc_val, perc_train:  (0.1, 40, 0.2, 0.9)
+batch_size, epochs, input_shape, metric,loss_func:  (32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x34471dc10>, <keras.src.losses.BinaryCrossentropy object at 0x34584e090>)
+[[8892    5]
+ [  20   24]]
+[[53009    94]
+ [  185   341]]
+Model: "sequential_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d (Conv2D)             (None, 30, 30, 32)        320       
+                                                                 
+ max_pooling2d (MaxPooling2  (None, 15, 15, 32)        0         
+ D)                                                              
+                                                                 
+ conv2d_1 (Conv2D)           (None, 13, 13, 64)        18496     
+                                                                 
+ max_pooling2d_1 (MaxPoolin  (None, 6, 6, 64)          0         
+ g2D)                                                            
+                                                                 
+ conv2d_2 (Conv2D)           (None, 4, 4, 128)         73856     
+                                                                 
+ max_pooling2d_2 (MaxPoolin  (None, 2, 2, 128)         0         
+ g2D)                                                            
+                                                                 
+ dropout (Dropout)           (None, 2, 2, 128)         0         
+                                                                 
+ flatten (Flatten)           (None, 512)               0         
+                                                                 
+ dense (Dense)               (None, 128)               65664     
+                                                                 
+ dense_1 (Dense)             (None, 64)                8256      
+                                                                 
+ dense_2 (Dense)             (None, 32)                2080      
+                                                                 
+ dense_3 (Dense)             (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 168705 (659.00 KB)
+Trainable params: 168705 (659.00 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+ratio_thr, sum_thr, perc_val, perc_train:  (0.1, 40, 0.2, 0.9)
+batch_size, epochs, input_shape, metric,loss_func:  (32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x2be829c10>, <keras.src.losses.BinaryCrossentropy object at 0x362a98d10>)
+[[8896    1]
+ [  29   15]]
+[[53084    19]
+ [  240   286]]
+Model: "sequential_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d (Conv2D)             (None, 30, 30, 32)        320       
+                                                                 
+ max_pooling2d (MaxPooling2  (None, 15, 15, 32)        0         
+ D)                                                              
+                                                                 
+ conv2d_1 (Conv2D)           (None, 13, 13, 64)        18496     
+                                                                 
+ max_pooling2d_1 (MaxPoolin  (None, 6, 6, 64)          0         
+ g2D)                                                            
+                                                                 
+ conv2d_2 (Conv2D)           (None, 4, 4, 128)         73856     
+                                                                 
+ max_pooling2d_2 (MaxPoolin  (None, 2, 2, 128)         0         
+ g2D)                                                            
+                                                                 
+ dropout (Dropout)           (None, 2, 2, 128)         0         
+                                                                 
+ flatten (Flatten)           (None, 512)               0         
+                                                                 
+ dense (Dense)               (None, 128)               65664     
+                                                                 
+ dense_1 (Dense)             (None, 64)                8256      
+                                                                 
+ dense_2 (Dense)             (None, 32)                2080      
+                                                                 
+ dense_3 (Dense)             (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 168705 (659.00 KB)
+Trainable params: 168705 (659.00 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+ratio_thr, sum_thr, perc_val, perc_train:  (0.1, 40, 0.2, 0.9)
+batch_size, epochs, input_shape, metric,loss_func:  (32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x341cf6f10>, <keras.src.losses.BinaryCrossentropy object at 0x2a4d01350>)
+[[8896    1]
+ [  29   15]]
+[[49863    11]
+ [  351   305]]
+Model: "sequential_5"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_3 (Conv2D)           (None, 30, 30, 32)        320       
+                                                                 
+ max_pooling2d_3 (MaxPoolin  (None, 15, 15, 32)        0         
+ g2D)                                                            
+                                                                 
+ conv2d_4 (Conv2D)           (None, 13, 13, 64)        18496     
+                                                                 
+ max_pooling2d_4 (MaxPoolin  (None, 6, 6, 64)          0         
+ g2D)                                                            
+                                                                 
+ conv2d_5 (Conv2D)           (None, 4, 4, 128)         73856     
+                                                                 
+ max_pooling2d_5 (MaxPoolin  (None, 2, 2, 128)         0         
+ g2D)                                                            
+                                                                 
+ dropout_1 (Dropout)         (None, 2, 2, 128)         0         
+                                                                 
+ flatten_1 (Flatten)         (None, 512)               0         
+                                                                 
+ dense_4 (Dense)             (None, 128)               65664     
+                                                                 
+ dense_5 (Dense)             (None, 64)                8256      
+                                                                 
+ dense_6 (Dense)             (None, 32)                2080      
+                                                                 
+ dense_7 (Dense)             (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 168705 (659.00 KB)
+Trainable params: 168705 (659.00 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+ratio_thr, sum_thr, perc_val, perc_train:  (0.1, 40, 0.2, 0.9)
+batch_size, epochs, input_shape, metric,loss_func:  (32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x3aaccff50>, <keras.src.losses.BinaryCrossentropy object at 0x339ea1a90>)
+[[9721    1]
+ [  24   17]]
+[[49860    14]
+ [  343   313]]
+Model: "sequential_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d (Conv2D)             (None, 30, 30, 32)        320       
+                                                                 
+ max_pooling2d (MaxPooling2  (None, 15, 15, 32)        0         
+ D)                                                              
+                                                                 
+ conv2d_1 (Conv2D)           (None, 13, 13, 64)        18496     
+                                                                 
+ max_pooling2d_1 (MaxPoolin  (None, 6, 6, 64)          0         
+ g2D)                                                            
+                                                                 
+ conv2d_2 (Conv2D)           (None, 4, 4, 128)         73856     
+                                                                 
+ max_pooling2d_2 (MaxPoolin  (None, 2, 2, 128)         0         
+ g2D)                                                            
+                                                                 
+ dropout (Dropout)           (None, 2, 2, 128)         0         
+                                                                 
+ flatten (Flatten)           (None, 512)               0         
+                                                                 
+ dense (Dense)               (None, 128)               65664     
+                                                                 
+ dense_1 (Dense)             (None, 64)                8256      
+                                                                 
+ dense_2 (Dense)             (None, 32)                2080      
+                                                                 
+ dense_3 (Dense)             (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 168705 (659.00 KB)
+Trainable params: 168705 (659.00 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+ratio_thr, sum_thr, perc_val, perc_train:  (0.1, 40, 0.2, 0.9)
+batch_size, epochs, input_shape, metric,loss_func:  (32, 10, [32, 32, 32, 1], <keras.src.metrics.f_score_metrics.F1Score object at 0x3674d4ad0>, <keras.src.losses.BinaryCrossentropy object at 0x3731fbfd0>)
+[[9717    5]
+ [  18   23]]
+[[49815    59]
+ [  287   369]]
